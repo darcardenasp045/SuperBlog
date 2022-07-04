@@ -19,9 +19,31 @@
         .container h1 {
             color: rgb(42, 165, 71);
         }
+        
         .container p{
             color: rgb(30, 99, 126);
         }
+        
+        .header{
+            display: grid;
+            grid-template-columns: auto auto;
+            align-items: center;
+            justify-content: center;
+            background-color: gray;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .header img{
+            width: 110px;
+            height: 100%;
+            object-fit: cover;
+            margin-right: 2px;
+        }
+        
+        .header p{
+            margin-left: 2px;
+        }
+
         .listas32 {
             color:rgb(177, 218, 88);
             padding: 10px;
@@ -32,27 +54,30 @@
         .listas32 :nth-child(1){
             background-color: black;
         }
+
         .listas32 :nth-child(2){
             margin-top: 10px;
             margin-bottom: 10px;
             background-color: blueviolet;
         }
+
         .listas32 :nth-child(3){
             margin-top: 10px;
             margin-bottom: 10px;
             background-color: cadetblue;
         }
+
         .listas32 :nth-child(4){
             margin-top: 10px;
             margin-bottom: 10px;
             background-color: cadetblue;
         }
+
         .imagen{
             width: 300px;
             height: 100%;
             padding: 20px;
             border: 1px solid rgb(64, 0, 255);
-
         }
       
         
@@ -60,29 +85,40 @@
 </head>
 <body>
     <div class="container">
-        <div id="cabecera">
-            cabecera
+        <div class="header">
+             <img src="./logo.png" alt="control">
+            <p>My Super Blog </p> 
         </div>
+        
         <title>este es superBlog con SSH</title>
+        
         <p> Este cambio lo hago desde GitHub con SSH </p>
+        
         <p>tercer cambio y ya continuo trabajndo en el siguiente capitulo</p>
 
         <h1 >Este es titulo del proyecto de GitHub con Branches </h1>
+        
         <p>Este titulolo hago desde GitHub conectado con Git </p>
+        
         <p>este es el primer parrafo del proyecto </p>
+        
         <p>este es el segundo parrafo del proyecto, por consiguiente vamos a alargar un poco el contenido</p>
+        
         <p>este es el tercer parrafo del proyecto de git hub</p>
+        
         <p>para esto tenemos que que hacer varios cambios en el archvo para poder ver la diferencia</p>
         
         <div class="listas32">
             <li>
                 esta es la primera lista 
             </li>
+            
             <li>
                 esta es la segunda lista
             </li>
             
             <img class="imagen" src="https://images.pexels.com/photos/9565726/pexels-photo-9565726.jpeg?cs=srgb&dl=pexels-taryn-elliott-9565726.jpg&fm=jpg" alt="toys">
+            
             <li>
                 Y aqui todavia no se que voy a hacer pero lo voy a pensar
             </li>
@@ -90,6 +126,7 @@
             <p>necesito saber si funciona o no</p>
 
         </div>
+        
         <p>y aqui le ponemos un parrafo como paracerrar el avance de esta cabecera master</p>
             
     </div>
